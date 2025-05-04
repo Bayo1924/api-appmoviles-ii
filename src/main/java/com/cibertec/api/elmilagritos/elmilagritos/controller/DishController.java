@@ -19,10 +19,8 @@ import java.util.List;
 public class DishController {
 
     private final List<DishEntity> dishes = Arrays.asList(
-            new DishEntity("Pizza italiana con masa artesanal y pepperoni", 1L, "Pizza Pepperoni", 25.0, "https://example.com/images/pizza.jpg"),
-            new DishEntity("Hamburguesa doble con queso cheddar y papas", 2L, "Hamburguesa Doble", 18.5, "https://example.com/images/burger.jpg"),
-            new DishEntity("Sushi de salmón fresco con arroz japonés", 3L, "Sushi Salmón", 30.0, "https://example.com/images/sushi.jpg"),
-            new DishEntity("Ensalada César con pollo a la parrilla y crutones", 4L, "Ensalada César", 15.0, "https://example.com/images/ensalada.jpg")
+            new DishEntity("Pizza italiana con masa artesanal y pepperoni", 1L, "Pizza Pepperoni", 25.0, "https://www.recetasnestle.com.ec/sites/default/files/srh_recipes/4e4293857c03d819e4ae51de1e86d66a.jpg"),
+            new DishEntity("Hamburguesa doble con queso cheddar y papas", 2L, "Hamburguesa Doble", 18.5, "https://www.recetasnestle.com.ec/sites/default/files/srh_recipes/4e4293857c03d819e4ae51de1e86d66a.jpg")
     );
 
     private final List<DishDetailEntity> dishDetails = Arrays.asList(
