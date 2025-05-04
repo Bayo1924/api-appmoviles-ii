@@ -25,9 +25,7 @@ public class DishController {
 
     private final List<DishDetailEntity> dishDetails = Arrays.asList(
             new DishDetailEntity(dishes.get(0), 101L, "Masa artesanal", "Salsa de tomate", "Queso mozzarella", "Pepperoni", "Orégano"),
-            new DishDetailEntity(dishes.get(1), 102L, "Pan artesanal", "Carne de res", "Queso cheddar", "Papas fritas", "Salsa especial"),
-            new DishDetailEntity(dishes.get(2), 103L, "Salmón fresco", "Arroz japonés", "Alga nori", "Salsa de soja", "Wasabi"),
-            new DishDetailEntity(dishes.get(3), 104L, "Lechuga romana", "Pollo a la parrilla", "Queso parmesano", "Crutones", "Aderezo César")
+            new DishDetailEntity(dishes.get(1), 102L, "Pan artesanal", "Carne de res", "Queso cheddar", "Papas fritas", "Salsa especial")
     );
 
     @GetMapping
